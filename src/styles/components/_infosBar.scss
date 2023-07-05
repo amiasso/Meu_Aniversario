@@ -1,0 +1,50 @@
+@use '../var.scss';
+
+.infos-bar {
+    padding: 16px 24px;
+    background-image: linear-gradient(var.$corDefundoInfos1,var.$corDefundoInfos2);
+    display: flex;
+    justify-content: space-between;
+    
+    &__infos {
+        display: flex;
+        gap: 40px;
+        background-image:linear-gradient(var.$corDefundoInfos1,var.$corDefundoInfos2);
+
+        &__item {
+            font-size: 14px;
+            color:var.$corItem ;
+
+            b {
+                color:var.$corB ;
+                font-size: 20px;
+                display: block;
+                padding-top: 10px;
+            }
+        }
+    }
+
+    @media (max-width: 640px) {
+        display: block;
+        background-image: linear-gradient(var.$corCelularContainer);
+
+        &__infos {
+            display: block;
+        &__item {
+            margin-bottom: 24px;
+            
+        }
+        }
+    }
+
+    @media (max-width: 640px) {
+        &__infos {
+            display: block;
+            font-size: 10px;
+        }
+
+        &__item {
+            margin: 10px 0 10px 0;
+        }
+    }
+}

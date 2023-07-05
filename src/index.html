@@ -6,13 +6,96 @@
     <title>Meu Aniversário</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Lobster&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Freehand&family=Lobster&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-    <h1>ola</h1>
-    <img src="./images/1771145.webp">
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./images/cervejaspng.webp" alt="cerveja">
+            <p class="hero__text"> O dia do meu aniversario : 
+                <span class="hero__dias" id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Chacara são francisco, jundiai - medeiros
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>O que levar ?</b>
+                        kit churras
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando ?</b>
+                        10/07/2023 às 8H da manhâ
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Vamos lá!!!!
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="event event--saladas" >
+    <div class="container" data-aos="fade-right">
+        <div class="event__details">
+            <h2 class="event__details__title">Saladas</h2>
+            <p class="event__details__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, expedita cupiditate. Necessitatibus accusamus id similique aliquid animi rerum recusandae at et repellendus alias corporis reiciendis architecto, quam deserunt. Exercitationem eum a asperiores quod aperiam obcaecati vitae, rem eius corporis, dolor consequuntur ut facere nisi quasi et in velit repudiandae eligendi distinctio eaque, repellendus necessitatibus accusantium! Quo inventore alias, natus cupiditate odio cum incidunt consequatur explicabo optio. Sapiente distinctio sint optio maxime quibusdam non libero ut incidunt veritatis repellendus atque temporibus recusandae adipisci nemo blanditiis, magni unde voluptatibus laborum ad quas expedita! Quam delectus saepe ab magnam, vel magni placeat sit. Officiis sapiente quos ad quaerat veritatis harum consequatur assumenda quo sit enim. Magnam laboriosam quibusdam commodi expedita alias tenetur dolorem voluptates atque perspiciatis, totam harum a, rem, unde ducimus quis recusandae voluptatum. Similique sapiente quam eveniet exercitationem. Nisi pariatur, asperiores eos maiores ullam voluptatibus hic veniam officiis tempore id amet!
+            </p>
+        </div>
+        <img class="event__image" src="./images/1771145.webp" alt="Saladas">
+    </div>
+    </section>
+    <section class="event event--truco event--image-left" >
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Truco</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, expedita cupiditate. Necessitatibus accusamus id similique aliquid animi rerum recusandae at et repellendus alias corporis reiciendis architecto, quam deserunt. Exercitationem eum a asperiores quod aperiam obcaecati vitae, rem eius corporis, dolor consequuntur ut facere nisi quasi et in velit repudiandae eligendi distinctio eaque, repellendus necessitatibus accusantium! Quo inventore alias, natus cupiditate odio cum incidunt consequatur explicabo optio. Sapiente distinctio sint optio maxime quibusdam non libero ut incidunt veritatis repellendus atque temporibus recusandae adipisci nemo blanditiis, magni unde voluptatibus laborum ad quas expedita! Quam delectus saepe ab magnam, vel magni placeat sit. Officiis sapiente quos ad quaerat veritatis harum consequatur assumenda quo sit enim. Magnam laboriosam quibusdam commodi expedita alias tenetur dolorem voluptates atque perspiciatis, totam harum a, rem, unde ducimus quis recusandae voluptatum. Similique sapiente quam eveniet exercitationem. Nisi pariatur, asperiores eos maiores ullam voluptatibus hic veniam officiis tempore id amet!
+                </p>
+            </div>
+            <img class="event__image" src="./images/OIP.jpg" alt="Truco">
+        </div>
+        </section>
+        <section class="event event--carne">
+            <div class="container" data-aos="fade-right">
+                <div class="event__details">
+                    <h2 class="event__details__title">Carne Assada</h2>
+                    <p class="event__details__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, expedita cupiditate. Necessitatibus accusamus id similique aliquid animi rerum recusandae at et repellendus alias corporis reiciendis architecto, quam deserunt. Exercitationem eum a asperiores quod aperiam obcaecati vitae, rem eius corporis, dolor consequuntur ut facere nisi quasi et in velit repudiandae eligendi distinctio eaque, repellendus necessitatibus accusantium! Quo inventore alias, natus cupiditate odio cum incidunt consequatur explicabo optio. Sapiente distinctio sint optio maxime quibusdam non libero ut incidunt veritatis repellendus atque temporibus recusandae adipisci nemo blanditiis, magni unde voluptatibus laborum ad quas expedita! Quam delectus saepe ab magnam, vel magni placeat sit. Officiis sapiente quos ad quaerat veritatis harum consequatur assumenda quo sit enim. Magnam laboriosam quibusdam commodi expedita alias tenetur dolorem voluptates atque perspiciatis, totam harum a, rem, unde ducimus quis recusandae voluptatum. Similique sapiente quam eveniet exercitationem. Nisi pariatur, asperiores eos maiores ullam voluptatibus hic veniam officiis tempore id amet!
+                    </p>
+                </div>
+                <img class="event__image" src="./images/png-clipart-skewers-skewers-food-thumbnail.png" alt="carne assada">
+            </div>
+            </section>
+            <section class="event event--sucos event--image-left">
+                <div class="container" data-aos="fade-left">
+                    <div class="event__details">
+                        <h2 class="event__details__title">Sucos</h2>
+                        <p class="event__details__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, expedita cupiditate. Necessitatibus accusamus id similique aliquid animi rerum recusandae at et repellendus alias corporis reiciendis architecto, quam deserunt. Exercitationem eum a asperiores quod aperiam obcaecati vitae, rem eius corporis, dolor consequuntur ut facere nisi quasi et in velit repudiandae eligendi distinctio eaque, repellendus necessitatibus accusantium! Quo inventore alias, natus cupiditate odio cum incidunt consequatur explicabo optio. Sapiente distinctio sint optio maxime quibusdam non libero ut incidunt veritatis repellendus atque temporibus recusandae adipisci nemo blanditiis, magni unde voluptatibus laborum ad quas expedita! Quam delectus saepe ab magnam, vel magni placeat sit. Officiis sapiente quos ad quaerat veritatis harum consequatur assumenda quo sit enim. Magnam laboriosam quibusdam commodi expedita alias tenetur dolorem voluptates atque perspiciatis, totam harum a, rem, unde ducimus quis recusandae voluptatum. Similique sapiente quam eveniet exercitationem. Nisi pariatur, asperiores eos maiores ullam voluptatibus hic veniam officiis tempore id amet!
+                        </p>
+                    </div>
+                    <img class="event__image" src="./images/R.jpg" alt="Sucos">
+                </div>
+                </section>
+                <section class="event event--cervejas">
+                    <div class="container">
+                        <div class="event__details">
+                            <h2 class="event__details__title">Cervejas Varias Marcas</h2>
+                            <p class="event__details__description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, expedita cupiditate. Necessitatibus accusamus id similique aliquid animi rerum recusandae at et repellendus alias corporis reiciendis architecto, quam deserunt. Exercitationem eum a asperiores quod aperiam obcaecati vitae, rem eius corporis, dolor consequuntur ut facere nisi quasi et in velit repudiandae eligendi distinctio eaque, repellendus necessitatibus accusantium! Quo inventore alias, natus cupiditate odio cum incidunt consequatur explicabo optio. Sapiente distinctio sint optio maxime quibusdam non libero ut incidunt veritatis repellendus atque temporibus recusandae adipisci nemo blanditiis, magni unde voluptatibus laborum ad quas expedita! Quam delectus saepe ab magnam, vel magni placeat sit. Officiis sapiente quos ad quaerat veritatis harum consequatur assumenda quo sit enim. Magnam laboriosam quibusdam commodi expedita alias tenetur dolorem voluptates atque perspiciatis, totam harum a, rem, unde ducimus quis recusandae voluptatum. Similique sapiente quam eveniet exercitationem. Nisi pariatur, asperiores eos maiores ullam voluptatibus hic veniam officiis tempore id amet!
+                            </p>
+                        </div>
+                        <img class="event__image" src="./images/cervejaspng.webp" alt="Cervejas">
+                    </div>
+                    
+                </section>
+                
+                    
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./scripts/main.js"></script>
 </body>

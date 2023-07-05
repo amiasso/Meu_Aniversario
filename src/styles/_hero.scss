@@ -1,0 +1,61 @@
+@use 'var';
+
+.hero {
+    padding-top: 64px;
+    padding-bottom: 100px;
+    background-image: url(../images/ornament-3662184_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    &__text {
+        margin-top: 64Px;
+        margin-bottom: 64px;
+        padding: 10px 0px;
+        font-size: 30px;
+        line-height: 56px;
+        font-weight: bold;
+        text-align: center;
+        font-family:var.$fontParagrsfo;
+        font-size: 40px;
+        color: var.$corItem;
+
+    }
+
+    &__dias {
+        display: block;
+        font-family:var.$fontInfos;
+        color: var.$red;
+    }
+
+    &__logo {
+        margin: 0 auto;
+        height: 200px;
+        display: block;
+    }
+
+    @media (max-width: 640px) {
+        padding: 40px 0px;
+
+        &__logo {
+            height: 50px;
+        }
+
+        &__text { 
+            font-size: 22px;
+            line-height: 24px;
+            margin: 24px 0;
+            display: block;
+        }
+
+        &__dias {
+            font-size: 22px;
+            line-height: 24px;
+            margin: 24px 0;
+            display: block;
+            color:var.$corTexto;
+            
+        }
+
+    }
+}
